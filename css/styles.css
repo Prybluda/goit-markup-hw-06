@@ -233,7 +233,7 @@ address {
 } 
 @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
     .one{
-    background-image:linear-gradient(var(--lg-grey), var(--lg-grey)), url(../images/people-office\ 1@x2.jpg) ;
+    background-image: linear-gradient(var(--lg-grey), var(--lg-grey)), url(../images/people-office\ 1@x2.jpg) ;
     }
 }
 
