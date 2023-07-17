@@ -194,7 +194,7 @@ address {
     }
 }
 
-@media screen and (min-width:768px) and (max-width: 1158px) {
+@media screen and (min-width:768px) and (max-width: 1157px) {
 .address-list{
     display: inline;
 }
@@ -1205,7 +1205,8 @@ transition: border-color var(--transition-);
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background: transparent;
+    border: transparent;
     margin: 0;
     padding: 0;
         
@@ -1216,8 +1217,11 @@ transition: border-color var(--transition-);
 
 }
 
-.js-close-menu {
+.close-menu {
+    border: 1px solid var(--navyblue-cl);
+    background: #E7E9FC;
     border-radius: 50%;
+    
 }
 
 @media (min-width: 768px) {
