@@ -467,7 +467,9 @@
         </div>
       </div>
     </footer>
+
     <!-- Modal window -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close>
@@ -569,11 +571,8 @@
     </div>
     <!-- Mobile-menu -->
 
-    <div
-      class="menu-container js-menu-container container hidden"
-      id="mobile-menu"
-    >
-      <button class="menu-toggle js-close-menu">
+    <div class="menu-container js-menu-container hidden" id="mobile-menu">
+      <button class="menu-toggle-close js-close-menu">
         <svg
           class="close-menu"
           fill="#2E2F42"
@@ -591,8 +590,12 @@
       </button>
 
       <ul class="mobile-menu">
-        <li><a href="" class="mobile-link link">Studio</a></li>
-        <li><a href="" class="mobile-link link">Portfolio</a></li>
+        <li>
+          <a href="./index.html" class="mobile-link active link">Studio</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-link link">Portfolio</a>
+        </li>
         <li><a href="" class="mobile-link link">Contacts</a></li>
       </ul>
       <address class="mobile-address">
