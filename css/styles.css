@@ -830,7 +830,7 @@ width: calc(100%-2*24px)/3;
             display: flex;
         flex-wrap: wrap;
         text-align-last: left;
-       max-width: 576px;
+       max-width: 584px;
         gap: 24px;
     }        
 }
